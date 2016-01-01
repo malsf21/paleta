@@ -22,3 +22,6 @@ collections:
   9651r:
     output: true
     layout: 9651r
+  omun:
+    output: true
+    layout: omun
