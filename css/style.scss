@@ -1,0 +1,55 @@
+---
+
+---
+
+// Variable Declarations
+
+$sidebar-color: #11427D;
+
+// Basic Element Changes
+
+.navbar{
+  margin-bottom: 2em;
+}
+
+// Showcase Classes
+
+.page-id{
+  font-size: 4em;
+  padding-bottom: 0.5em;
+}
+.section{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.font-showcase{
+  font-size: 10em;
+}
+
+// Sidebar CSS
+.main-menu ul {
+  list-style-type: none;
+	padding: 0;
+}
+#sidebar-menu{
+  position:sticky;
+  .main-menu{
+    a {
+      display: block;
+    	color: #999;
+    	padding: 4px 20px;
+    }
+    a:hover {
+    	color: $sidebar-color;
+    	text-decoration: none;
+    	background-color: transparent;
+    	border-left: 1px solid $sidebar-color;
+    }
+  }
+  .sub-menu a {
+  	padding-top: 1px;
+  	padding-bottom: 1px;
+  	padding-left: 30px;
+  }
+}

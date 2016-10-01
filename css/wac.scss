@@ -1,0 +1,24 @@
+---
+
+---
+$text-color: #383938;
+
+@font-face{
+	font-family:Nexa;
+	src:url({{site.baseurl}}/fonts/nexa/nexa_light.otf);
+}
+@font-face{
+	font-family:Nexa;
+	font-weight:bold;
+	src:url({{site.baseurl}}/fonts/nexa/nexa_bold.otf);
+}
+
+.wrapper{
+  font-family:Nexa;
+  color: $text-color;
+}
+
+.nexa-bold{
+  font-family: Nexa;
+  font-weight: bold;
+}
