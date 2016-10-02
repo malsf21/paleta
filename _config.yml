@@ -3,14 +3,14 @@ title: Paleta
 description: > #
   A set of style guides for several Upper Canada College associated organistations.
 baseurl: "/paleta"
-url: "https://matthewang.me/"
+url: "https://malsf21.github.io"
 
 # Social Settings
 twitter: malsf21
 github:  malsf21
 email: matthew.wang@ucc.on.ca
 website: "https://matthewwang.me"
-repo: "https://malsf21.github.io/paleta/"
+repo: "https://github.com/malsf21/paleta/"
 
 # Build settings
 markdown: kramdown

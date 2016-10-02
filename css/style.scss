@@ -23,6 +23,10 @@ $sidebar-color: #11427D;
   text-transform: uppercase;
 }
 
+.spacing-unit-bottom{
+	margin-bottom: 1em;
+}
+
 // Basic Element Changes
 
 .navbar{
@@ -42,7 +46,6 @@ $sidebar-color: #11427D;
 
 .footer-title{
   font-family: Nexa Slab;
-  font-size: 1.1em;
 }
 
 // Showcase Classes
