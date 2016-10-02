@@ -88,9 +88,12 @@ permalink: /wac/typography/
         </tbody>
       </table>
     </div>
-    <a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/wac/corefonts.zip"><span class="fa fa-file-zip-o"></span> Download Core Typefaces</a>
   </div>
   <h2 class="section-header" id="core-typefaces">Core Typefaces</h2>
+  <p class="lead">
+    These typefaces form our design core, and are used on everyting WAC: our logo, website, print materials, you name it.
+  </p>
+  <a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/wac/corefonts.zip"><span class="fa fa-file-zip-o"></span> Download Core Typefaces</a>
   <div class="row">
     <div class="col-md-4">
       <span class="font-showcase">Aa</span>
@@ -148,21 +151,54 @@ permalink: /wac/typography/
 </div>
 <div class="section">
   <h2 class="section-header" id="font-sizing">Font Sizing</h2>
+  <h3>Defaults</h3>
   <p class="lead">
-    Coming soon.
+    We recommend a default font-size of at least <code>16px</code> for digital media, and at least <code>14pt</code> for print media. This is to ensure legibility, especially from a distance.
+  </p>
+  <pre>
+    <code class="language-scss">
+      $font-size-root: 16px !default;
+    </code>
+  </pre>
+  <h3>Headers</h3>
+  <p class="lead">
+    We recommend a header size of at least <code>1.25 em</code> (<code>20px</code> or <code>16pt</code>). Here's an example set of headers that we use in our Bootstrap theme.
+  </p>
+  <pre>
+    <code class="language-scss">
+      $font-size-root: 16px !default;
+
+      $font-size-h1: 2.5rem !default;
+      $font-size-h2: 2rem !default;
+      $font-size-h3: 1.75rem !default;
+      $font-size-h4: 1.5rem !default;
+      $font-size-h5: 1.25rem !default;
+      $font-size-h6: 1rem !default;
+    </code>
+  </pre>
+  <h3>Line Height</h3>
+  <p class="lead">
+    We recommend a line-height of at least 1.5, to ensure legibility and spacing.
   </p>
 </div>
 <div class="section">
-  <h2 class="section-header" id="font-styling">Font Styling</h2>
-  <p class="lead">
-    Coming soon.
-  </p>
-</div>
-<div class="section">
-  <h2 class="section-header" id="example-text">Example</h2>
-  <p class="lead">
-    Coming soon.
-  </p>
+  <h2 class="section-header" id="example-text">Example Text</h2>
+  <h3>Nexa Light</h3>
+  <div class="card card-block">
+    <span class="nexa text-showcase">The five boxing wizards jump quickly.</span>
+  </div>
+  <h3>Nexa Bold</h3>
+  <div class="card card-block">
+    <span class="nexa-bold text-showcase">The five boxing wizards jump quickly.</span>
+  </div>
+  <h3>Nexa Slab</h3>
+  <div class="card card-block">
+    <span class="nexa-slab text-showcase">The five boxing wizards jump quickly.</span>
+  </div>
+  <h3>Nexa Slab Bold</h3>
+  <div class="card card-block">
+    <span class="nexa-slab-bold text-showcase">The five boxing wizards jump quickly.</span>
+  </div>
 </div>
 <div class="section">
   <h2 class="section-header" id="css-example">CSS Example</h2>
