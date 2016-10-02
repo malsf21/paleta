@@ -1,7 +1,23 @@
 ---
 
 ---
-$text-color: #383938;
+// Primary Colours
+$vulcan-gray: #383938;
+$horizon-blue: #5C7BA3;
+
+// Accent Colours
+$casablanca-yellow: #F0AD4E;
+$fern-green: #73C173;
+$oslo-gray:  #818A91;
+$seagull-blue: #7AD0ED;
+$valencia-red: #D9534F;
+
+// Background Colours
+$shark-gray: #2A262A;
+$smoke-white : #F5F5F5;
+
+
+// Font Imports
 
 @font-face{
 	font-family:Nexa;
@@ -12,13 +28,119 @@ $text-color: #383938;
 	font-weight:bold;
 	src:url({{site.baseurl}}/fonts/nexa/nexa_bold.otf);
 }
+@font-face{
+	font-family:Nexa Slab;
+	src:url({{site.baseurl}}/fonts/nexaslab/nexa_slab_regular.otf);
+}
+@font-face{
+	font-family:Nexa Slab;
+	font-weight: bold;
+	src:url({{site.baseurl}}/fonts/nexaslab/nexa_slab_bold.otf);
+}
 
-.wrapper{
-  font-family:Nexa;
-  color: $text-color;
+// Font Classes
+
+.nexa-light{
+	font-family: Nexa;
 }
 
 .nexa-bold{
   font-family: Nexa;
   font-weight: bold;
+}
+
+.nexa-slab{
+	font-family:Nexa Slab;
+}
+
+.nexa-slab-bold{
+	font-family:Nexa Slab;
+	font-weight: bold;
+}
+
+// Colour Palettes
+
+.color-vulcan{
+	color: $vulcan-gray;
+}
+
+.bg-vulcan{
+	background-color: $vulcan-gray;
+}
+
+.color-horizon{
+	color: $horizon-blue;
+}
+
+.bg-horizon{
+	background-color: $horizon-blue;
+}
+
+.color-casablanca{
+	color: $casablanca-yellow;
+}
+
+.bg-casablanca{
+	background-color: $casablanca-yellow;
+}
+
+.color-fern{
+	color: $fern-green;
+}
+
+.bg-fern{
+	background-color: $fern-green;
+}
+
+.color-oslo{
+	color: $oslo-gray;
+}
+
+.bg-oslo{
+	background-color: $oslo-gray;
+}
+
+.color-seagull{
+	color: $seagull-blue;
+}
+
+.bg-seagull{
+	background-color: $seagull-blue;
+}
+
+.color-valencia{
+	color: $valencia-red;
+}
+
+.bg-valencia{
+	background-color: $valencia-red;
+}
+
+.color-shark{
+	color: $shark-gray;
+}
+
+.bg-shark{
+	background-color: $shark-gray;
+}
+
+.color-smoke{
+	color: $smoke-white;
+}
+
+.bg-smoke{
+	background-color: $smoke-white;
+}
+
+
+
+// Demo Code
+
+.wrapper{
+  font-family:Nexa;
+  color: $vulcan-gray;
+
+	h1,h2,h3,h4,h5,h6{
+		font-family:Nexa Slab;
+	}
 }
