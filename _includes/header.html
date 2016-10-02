@@ -1,11 +1,15 @@
 <nav class="navbar navbar-light">
-  <a class="navbar-brand" href="{{site.baseurl}}/index.html">Paleta</a>
-  <ul class="nav navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link{% if page.layout == "wac"%} active{% endif %}" href="{{site.baseurl}}/wac/overview/">WAC</a>
-    </li>
-  </ul>
-  <ul class="nav pull-xs-right">
-    <li><a class="btn btn-outline-primary" href="#">Download Drop</a></li>
-  </ul>
+  <div class="container">
+    <a class="navbar-brand" href="{{site.baseurl}}/index.html">Paleta</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link{% if page.layout == "wac"%} active{% endif %}" href="{{site.baseurl}}/wac/overview/">WAC</a>
+      </li>
+    </ul>
+    {% if page.layout != "default" %}
+    <ul class="nav pull-xs-right">
+      <li><a class="btn btn-outline-primary" href="#">Download <span class="drop-type">{{page.layout}}</span> Drop</a></li>
+    </ul>
+    {% endif %}
+  </div>
 </nav>

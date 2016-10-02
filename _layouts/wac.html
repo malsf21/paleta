@@ -13,13 +13,18 @@
           <div class="col-lg-3 hidden-md-down">
             <div class="card card-block" id="sidebar-menu">
               <ul class="list-unstyled main-menu nav nav-stacked">
-                {% for docs in site.wac %}
+                <li id="overview-menu">
+                  <a href="{{site.baseurl}}/wac/overview/">
+                    Getting Started
+                  </a>
+                </li>
+                {% for docs in site.wac %}{% unless docs.short == "overview" %}
                   <li id="{{docs.short}}-menu">
                     <a href="{{site.baseurl}}{{docs.url}}">
                       {{docs.title}}
                     </a>
                   </li>
-                {% endfor %}
+                {% endunless %}{% endfor %}
                 <li>
                   <a href="#page-top">Back to top</a>
                 </li>

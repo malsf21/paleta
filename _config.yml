@@ -1,16 +1,16 @@
 # Site settings
-title: UCC Clubs Style Guides
-description: > # this means to ignore newlines until "baseurl:"
-  Style guides for WAC, OMUN, Convergence, and a plethora of other things.
+title: Paleta
+description: > #
+  A set of style guides for several Upper Canada College associated organistations.
 baseurl: "/paleta"
-url: "https://malsf21.github.com"
+url: "https://matthewang.me/"
 
 # Social Settings
 twitter: malsf21
 github:  malsf21
 email: matthew.wang@ucc.on.ca
 website: "https://matthewwang.me"
-repo: "https://malsf21.github.com/style/"
+repo: "https://malsf21.github.io/paleta/"
 
 # Build settings
 markdown: kramdown

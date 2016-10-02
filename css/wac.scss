@@ -28,10 +28,13 @@ $smoke-white : #F5F5F5;
 	font-weight:bold;
 	src:url({{site.baseurl}}/fonts/nexa/nexa_bold.otf);
 }
+/*
+// this one is imported in style.scss
 @font-face{
 	font-family:Nexa Slab;
 	src:url({{site.baseurl}}/fonts/nexaslab/nexa_slab_regular.otf);
 }
+*/
 @font-face{
 	font-family:Nexa Slab;
 	font-weight: bold;
@@ -49,9 +52,12 @@ $smoke-white : #F5F5F5;
   font-weight: bold;
 }
 
+/*
+// this one is defined in style.scss
 .nexa-slab{
 	font-family:Nexa Slab;
 }
+*/
 
 .nexa-slab-bold{
 	font-family:Nexa Slab;

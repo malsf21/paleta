@@ -6,10 +6,43 @@
 
 $sidebar-color: #11427D;
 
+// Fonts!
+
+@font-face{
+	font-family:Nexa Slab;
+	src:url({{site.baseurl}}/fonts/nexaslab/nexa_slab_regular.otf);
+}
+
+.nexa-slab{
+	font-family:Nexa Slab;
+}
+
+// Utility
+
+.drop-type{
+  text-transform: uppercase;
+}
+
 // Basic Element Changes
 
 .navbar{
   margin-bottom: 2em;
+}
+
+.navbar-brand{
+  font-family: Nexa Slab;
+  font-size: 2em;
+  padding-right: 1em;
+}
+
+.nav-item{
+  padding-top: 0.5em;
+  font-family: Nexa Slab;
+}
+
+.footer-title{
+  font-family: Nexa Slab;
+  font-size: 1.1em;
 }
 
 // Showcase Classes
