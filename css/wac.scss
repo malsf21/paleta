@@ -11,6 +11,7 @@ $fern-green: #73C173;
 $oslo-gray:  #818A91;
 $seagull-blue: #7AD0ED;
 $valencia-red: #D9534F;
+$wattle-yellow: #D7DD45;
 
 // Background Colours
 $shark-gray: #2A262A;
@@ -120,6 +121,14 @@ $smoke-white : #F5F5F5;
 
 .bg-valencia{
 	background-color: $valencia-red;
+}
+
+.color-wattle{
+	color: $wattle-yellow;
+}
+
+.bg-wattle{
+	background-color: $wattle-yellow;
 }
 
 .color-shark{
