@@ -21,11 +21,11 @@ $smoke-white : #F5F5F5;
 // Font Imports
 
 @font-face{
-	font-family: 'Nexa', sans-serif;
+	font-family: 'Nexa';
 	src:url({{site.baseurl}}/fonts/nexa/nexa_light.otf);
 }
 @font-face{
-	font-family: 'Nexa', sans-serif;
+	font-family: 'Nexa';
 	font-weight:bold;
 	src:url({{site.baseurl}}/fonts/nexa/nexa_bold.otf);
 }
@@ -45,11 +45,11 @@ $smoke-white : #F5F5F5;
 // Font Classes
 
 .nexa-light{
-	font-family: 'Nexa', sans-serif;
+	font-family: 'Nexa';
 }
 
 .nexa-bold{
-  font-family: 'Nexa', sans-serif;
+  font-family: 'Nexa';
   font-weight: bold;
 }
 
