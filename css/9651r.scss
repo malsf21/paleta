@@ -1,0 +1,99 @@
+---
+
+---
+// Primary Colours
+$light-sea-green: #18BC9C;
+$madison-gray: #2C3E50;
+
+// Accent Colours
+$cool-blue: #0089FB;
+$deep-sea-green: #0F7864;
+$pewter-gray: #95A5A6;
+$strong-red: #FF0000;
+$tree-poppy-yellow: #F39C12;
+
+// Background Colours
+$madison-gray: #2C3E50;
+$athens-gray : #ECF0F1;
+
+
+// Font Imports
+
+@font-face{
+	font-family: 'Roboto';
+	src:url({{site.baseurl}}/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Roboto Slab';
+	src:url({{site.baseurl}}/fonts/robotoslab/RobotoSlab-Regular.ttf);
+}
+
+// Font Classes
+
+.roboto{
+	font-family: 'Roboto';
+}
+
+.roboto-slab{
+	font-family: 'Roboto Slab';
+}
+
+
+// Colour Palettes
+
+.color-light-sea{
+	color: $light-sea-green;
+}
+.bg-light-sea{
+	background-color: $light-sea-green;
+}
+
+.color-madison{
+	color: $madison-gray;
+}
+.bg-madison{
+	background-color: $madison-gray;
+}
+
+.color-cool-blue{
+	color: $cool-blue;
+}
+.bg-cool-blue{
+	background-color: $cool-blue;
+}
+
+.color-deep-sea{
+	color: $deep-sea-green;
+}
+.bg-deep-sea{
+	background-color: $deep-sea-green;
+}
+
+.color-pewter{
+	color: $pewter-gray;
+}
+.bg-pewter{
+	background-color: $pewter-gray;
+}
+
+.color-strong-red{
+	color: $strong-red;
+}
+.bg-strong-red{
+	background-color: $strong-red;
+}
+
+.color-tree-poppy{
+	color: $tree-poppy-yellow;
+}
+.bg-tree-poppy{
+	background-color: $tree-poppy-yellow;
+}
+
+.color-athens{
+	color: $athens-gray;
+}
+.bg-athens{
+	background-color: $athens-gray;
+}

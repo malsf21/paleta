@@ -1,0 +1,216 @@
+---
+layout: 9651r
+title: Typography
+short: typography
+permalink: /9651r/typography/
+---
+<div class="section">
+  <div class="section">
+    <h2 class="section-header" id="overview">Overview</h2>
+    <p class="lead">
+      At 9651 Robotics, we like robots, and anything related to them. That's why we use Google's <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> and <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a> as our main font families for all of our material: not only does it look and feel cool, but it has to do with robots. Awesome!
+    </p>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>
+              Font Family
+            </th>
+            <th>
+              Font Purpose
+            </th>
+            <th>
+              Recommended Font Sizes
+            </th>
+            <th>
+              Font Download
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Roboto
+            </td>
+            <td>
+              Default, paragraph text.
+            </td>
+            <td>
+              <code>16px</code> or <code>14pt</code>
+            </td>
+            <td>
+              <a class="btn btn-outline-primary btn-block" href="{{site.baseurl}}/resources/roboto.zip"><span class="fa fa-font"></span> Download Roboto Family</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Roboto Slab
+            </td>
+            <td>
+              Headings, title text.
+            </td>
+            <td>
+              <code>20px</code> or <code>16pt</code>
+            </td>
+            <td>
+              <a class="btn btn-outline-primary btn-block" href="{{site.baseurl}}/resources/robotoslab.zip"><span class="fa fa-font"></span> Download Roboto Slab Family</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <h2 class="section-header" id="core-typefaces">Core Typefaces</h2>
+  <p class="lead">
+    These typefaces form our design core, and are used on everyting 9651: our logo, website, print materials, you name it.
+  </p>
+  <a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/9651r/corefonts.zip"><span class="fa fa-file-zip-o"></span> Download Core Typefaces</a>
+  <div class="row">
+    <div class="col-md-4">
+      <span class="font-showcase roboto">Aa</span>
+    </div>
+    <div class="col-md-8">
+      <h3>Roboto</h3>
+      <p class="lead">
+        Roboto is the normal sans-serif font family for 9651 Robotics media materials. Use it for general text, html <code>&#60;p&#62;</code> tags, and any other default text values. When in doubt, use Roboto.
+      </p>
+      <a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/roboto.zip"><span class="fa fa-font"></span> Download Roboto Family</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <span class="font-showcase roboto-slab">Aa</span>
+    </div>
+    <div class="col-md-8">
+      <h3>Roboto Slab</h3>
+      <p class="lead">
+        Roboto Slab is the default serif font family for 9651 Robotics media materials. Use it for headings, html header tags, and for any title or heading-based text.
+      </p>
+      <a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/robotoslab.zip"><span class="fa fa-font"></span> Download Roboto Slab Family</a>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <h2 class="section-header" id="font-sizing">Font Sizing</h2>
+  <h3>Defaults</h3>
+  <p class="lead">
+    We recommend a default font-size of at least <code>16px</code> for digital media, and at least <code>14pt</code> for print media. This is to ensure legibility, especially from a distance.
+  </p>
+  <pre>
+    <code class="language-scss">
+      $font-size-root: 16px !default;
+    </code>
+  </pre>
+  <h3>Headers</h3>
+  <p class="lead">
+    We recommend a header size of at least <code>1.25 em</code> (<code>20px</code> or <code>16pt</code>). Here's an example set of headers that we use in our Bootstrap theme.
+  </p>
+  <pre>
+    <code class="language-scss">
+      $font-size-root: 16px !default;
+
+      $font-size-h1: 2.5rem !default;
+      $font-size-h2: 2rem !default;
+      $font-size-h3: 1.75rem !default;
+      $font-size-h4: 1.5rem !default;
+      $font-size-h5: 1.25rem !default;
+      $font-size-h6: 1rem !default;
+    </code>
+  </pre>
+  <h3>Line Height</h3>
+  <p class="lead">
+    We recommend a line-height of at least 1.5, to ensure legibility and spacing.
+  </p>
+</div>
+<div class="section">
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Roboto</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" data-toggle="tab" href="#roboto" role="tab">Regular</a>
+        <a class="dropdown-item" data-toggle="tab" href="#roboto-bold" role="tab">Bold</a>
+        <a class="dropdown-item" data-toggle="tab" href="#roboto-italic" role="tab">Italic</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Roboto Slab</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" data-toggle="tab" href="#roboto-slab" role="tab">Regular</a>
+        <a class="dropdown-item" data-toggle="tab" href="#roboto-slab-bold" role="tab">Bold</a>
+        <a class="dropdown-item" data-toggle="tab" href="#roboto-slab-italic" role="tab">Italic</a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="tab-content card-block">
+    <div class="tab-pane active" id="roboto" role="tabpanel">
+      <h3>Roboto Regular</h3>
+      <div class="card card-block">
+        <span class="roboto text-showcase">The five boxing wizards jump quickly.</span>
+      </div>
+    </div>
+    <div class="tab-pane" id="roboto-bold" role="tabpanel">
+      <h3>Roboto Bold</h3>
+      <div class="card card-block">
+        <span class="roboto text-showcase"><strong>The five boxing wizards jump quickly.</strong></span>
+      </div>
+    </div>
+    <div class="tab-pane" id="roboto-italic" role="tabpanel">
+      <h3>Roboto Italic</h3>
+      <div class="card card-block">
+        <span class="roboto text-showcase"><em>The five boxing wizards jump quickly.</em></span>
+      </div>
+    </div>
+    <div class="tab-pane" id="roboto-slab" role="tabpanel">
+      <h3>Roboto Slab Regular</h3>
+      <div class="card card-block">
+        <span class="roboto-slab text-showcase">The five boxing wizards jump quickly.</span>
+      </div>
+    </div>
+    <div class="tab-pane" id="roboto-slab-bold" role="tabpanel">
+      <h3>Roboto Slab Bold</h3>
+      <div class="card card-block">
+        <span class="roboto-slab text-showcase"><strong>The five boxing wizards jump quickly.</strong></span>
+      </div>
+    </div>
+    <div class="tab-pane" id="roboto-slab-italic" role="tabpanel">
+      <h3>Roboto Slab Italic</h3>
+      <div class="card card-block">
+        <span class="roboto-slab text-showcase"><em>The five boxing wizards jump quickly.</em></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <h2 class="section-header" id="css-example">CSS Example</h2>
+  <p class="lead">
+    Here's some example code using the Roboto and Roboto Slab core typefaces.
+  </p>
+  <h3>SASS Example</h3>
+  <pre>
+    <code class="language-scss">
+      // Font Imports
+
+      @font-face{
+      	font-family: 'Roboto';
+      	src:url({{site.baseurl}}/fonts/roboto/Roboto-Regular.ttf);
+      }
+
+      @font-face{
+      	font-family: 'Roboto Slab';
+      	src:url({{site.baseurl}}/fonts/robotoslab/RobotoSlab-Regular.ttf);
+      }
+
+      // Font Classes
+
+      .roboto{
+      	font-family: 'Roboto';
+      }
+
+      .roboto-slab{
+      	font-family: 'Roboto Slab';
+      }
+    </code>
+  </pre>
+</div>

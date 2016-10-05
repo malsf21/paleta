@@ -19,3 +19,6 @@ collections:
   wac:
     output: true
     layout: wac
+  9651r:
+    output: true
+    layout: 9651r

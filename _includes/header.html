@@ -5,10 +5,13 @@
       <li class="nav-item">
         <a class="nav-link{% if page.layout == "wac"%} active{% endif %}" href="{{site.baseurl}}/wac/overview/">WAC</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link{% if page.layout == "9651r"%} active{% endif %}" href="{{site.baseurl}}/9651r/overview/">9651</a>
+      </li>
     </ul>
     {% if page.layout != "default" %}
     <ul class="nav pull-xs-right hidden-sm-down">
-      <li><a class="btn btn-outline-primary" href="{% if page.layout == "wac"%}{{site.baseurl}}/resources/wac/drop.zip{% endif %}">Download <span class="drop-type">{{page.layout}}</span> Drop</a></li>
+      <li><a class="btn btn-outline-primary" href="{{site.baseurl}}/resources/{{page.layout}}/drop.zip">Download <span class="drop-type">{{page.layout}}</span> Drop</a></li>
     </ul>
     {% endif %}
   </div>
