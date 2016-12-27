@@ -10,28 +10,25 @@ $sidebar-color: #11427D;
 
 @font-face {
   font-family: 'Muli';
-  font-style: normal;
-	font-weight: 400;
   src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/fonts/muli/Muli-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-style: italic;
-	font-weight: 400;
   src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/fonts/muli/Muli-Italic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
-  font-weight: 700;
+  font-weight: bold;
   src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
 	font-style: italic;
-  font-weight: 700;
+  font-weight: bold;
   src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
@@ -54,6 +51,10 @@ body{
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Nexa Slab', serif;
+}
+
+b{
+  font-weight: bold;
 }
 
 // Utility
