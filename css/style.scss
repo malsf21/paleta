@@ -12,27 +12,27 @@ $sidebar-color: #11427D;
   font-family: 'Muli';
   font-style: normal;
 	font-weight: 400;
-  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/fonts/muli/Muli-Regular.ttf) format('ttf');
+  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/fonts/muli/Muli-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-style: italic;
 	font-weight: 400;
-  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/fonts/muli/Muli-Italic.ttf) format('ttf');
+  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/fonts/muli/Muli-Italic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-weight: 700;
-  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('ttf');
+  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
 	font-style: italic;
   font-weight: 700;
-  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('ttf');
+  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face{
