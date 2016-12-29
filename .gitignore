@@ -4,10 +4,4 @@ _site
 drops/
 
 # installed items
-jquery.min.js
-tether.min.js
-font-awesome.min.css
 bootstrap
-bootstrap.min.css
-bootstrap.min.js
-fonts
