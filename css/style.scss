@@ -15,31 +15,31 @@ $brand-danger: #C44D58;
 
 @font-face {
   font-family: 'Muli';
-  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/css/fonts/muli/Muli-Regular.ttf) format('truetype');
+  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/css/font/muli/Muli-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-style: italic;
-  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/css/fonts/muli/Muli-Italic.ttf) format('truetype');
+  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/css/font/muli/Muli-Italic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-weight: bold;
-  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/css/fonts/muli/Muli-Bold.ttf) format('truetype');
+  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/css/font/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
 	font-style: italic;
   font-weight: bold;
-  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/css/fonts/muli/Muli-Bold.ttf) format('truetype');
+  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/css/font/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face{
 	font-family: 'Nexa Slab';
-	src:url({{site.baseurl}}/css/fonts/nexaslab/nexa_slab_regular.otf);
+	src:url({{site.baseurl}}/css/font/nexaslab/nexa_slab_regular.otf);
 }
 
 .muli{
