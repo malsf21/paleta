@@ -1,6 +1,6 @@
-# [paleta](https://matthewwang.me/paleta/)
-
 ![Paleta Full Logo](img/signature.png)
+
+# [paleta](https://matthewwang.me/paleta/)
 
 Paleta is an online style guide for a few organisations that I have some sort of design role in. It provides information such as colour palettes, typography, or branding. Plus, it's modular, which means that you can use Paleta to make your own style guides. Awesome!
 
