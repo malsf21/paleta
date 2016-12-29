@@ -4,37 +4,42 @@
 
 // Variable Declarations
 
-$sidebar-color: #11427D;
+$brand-primary: #0275d8;
+$brand-inverse: #556270;
+$brand-info: #4ECDC4;
+$brand-success: #C7F464;
+$brand-warning: #FF6B6B;
+$brand-danger: #C44D58;
 
 // Fonts!
 
 @font-face {
   font-family: 'Muli';
-  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/fonts/muli/Muli-Regular.ttf) format('truetype');
+  src: local('Muli Regular'), local('Muli-Regular'), url({{site.baseurl}}/css/fonts/muli/Muli-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-style: italic;
-  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/fonts/muli/Muli-Italic.ttf) format('truetype');
+  src: local('Muli Italic'), local('Muli-Italic'),  url({{site.baseurl}}/css/fonts/muli/Muli-Italic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
   font-weight: bold;
-  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
+  src: local('Muli Bold'), local('Muli-Bold'), url({{site.baseurl}}/css/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Muli';
 	font-style: italic;
   font-weight: bold;
-  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/fonts/muli/Muli-Bold.ttf) format('truetype');
+  src: local('Muli Bold'), local('Muli-BoldItalic'), url({{site.baseurl}}/css/fonts/muli/Muli-Bold.ttf) format('truetype');
 }
 
 @font-face{
 	font-family: 'Nexa Slab';
-	src:url({{site.baseurl}}/fonts/nexaslab/nexa_slab_regular.otf);
+	src:url({{site.baseurl}}/css/fonts/nexaslab/nexa_slab_regular.otf);
 }
 
 .muli{
@@ -89,6 +94,7 @@ b{
 
 .footer-title{
   font-family: 'Nexa Slab', serif;
+  color: $brand-warning;
 }
 
 .main-header{
@@ -129,7 +135,7 @@ b{
 }
 
 .section-header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 1em;
 }
 
@@ -147,10 +153,10 @@ b{
     	padding: 4px 20px;
     }
     a:hover {
-    	color: $sidebar-color;
+    	color: $brand-warning;
     	text-decoration: none;
     	background-color: transparent;
-    	border-left: 1px solid $sidebar-color;
+    	border-left: 1px solid $brand-warning;
     }
   }
   .sub-menu a {
@@ -158,4 +164,7 @@ b{
   	padding-bottom: 1px;
   	padding-left: 30px;
   }
+}
+.sidebar-divider{
+  border-top: 1px solid $brand-warning;
 }
