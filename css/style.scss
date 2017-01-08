@@ -93,10 +93,6 @@ b{
   padding-right: 1em;
 }
 
-.nav-item{
-  padding-top: 0.5em;
-}
-
 .footer-title{
   font-family: 'Nexa Slab', serif;
   color: $brand-warning;
@@ -104,6 +100,7 @@ b{
 
 .main-header{
 	font-size: 5em;
+  color: $brand-warning;
 }
 
 .carousel-control.left, .carousel-control.right {
