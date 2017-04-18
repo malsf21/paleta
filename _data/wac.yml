@@ -1,0 +1,80 @@
+fonts:
+  default:
+    name: "Nexa Light"
+    class: "nexa-light"
+colors:
+  primary:
+    horizon-blue:
+      name: "Horizon Blue"
+      class: "horizon"
+      hex: "#5C7BA3"
+      rgb: "92, 123, 163"
+      cmyk: "0.44, 0.25, 0.00, 0.36"
+      use: "logo, marketing, and branding"
+    vulcan-gray:
+      name: "Vulcan Gray"
+      class: "vulcan"
+      hex: "#383938"
+      rgb: "56, 57, 56"
+      cmyk: "0.02, 0.00, 0.02, 0.78"
+      use: "text"
+
+  accent:
+    casablanca-yellow:
+      name: "Casablanca Yellow"
+      class: "casablanca"
+      hex: "#F0AD4E"
+      rgb: "217, 83, 79"
+      cmyk: "0.00, 0.62, 0.64, 0.15"
+      use: "marketing and signage"
+    fern-green:
+      name: "Fern Green"
+      class: "fern"
+      hex: "#73C173"
+      rgb: "92, 123, 163"
+      cmyk: "0.44, 0.25, 0.00, 0.36"
+      use: "logo, marketing, and signage"
+    oslo-gray:
+      name: "Oslo Gray"
+      class: "oslo"
+      hex: "#818A91"
+      rgb: "129, 138, 145"
+      cmyk: "0.11, 0.05, 0.00, 0.43"
+      use: "marketing and signage"
+    seagull-blue:
+      name: "Seagull Blue"
+      class: "seagull"
+      hex: "#7AD0ED"
+      rgb: "122, 208, 237"
+      cmyk: "0.49, 0.12, 0.00, 0.07"
+      use: "marketing and signage"
+    valencia-red:
+      name: "Valencia Red"
+      class: "valencia"
+      hex: "#D9534F"
+      rgb: "217, 83, 79"
+      cmyk: "0.00, 0.62, 0.64, 0.15"
+      use: "marketing and signage"
+    wattle-yellow:
+      name: "Wattle Yellow"
+      class: "wattle"
+      hex: "#D7DD45"
+      rgb: "205, 213, 23"
+      cmyk: "0.04, 0.00, 0.89, 0.16"
+      use: "marketing and signage"
+
+  background:
+    shark-gray:
+      name: "Shark Gray"
+      class: "shark"
+      hex: "#2A262A"
+      rgb: "42, 38, 42"
+      cmyk: "0.00, 0.10, 0.00, 0.84"
+      use: "marketing and signage"
+    smoke-white :
+      name: "Smoke White"
+      class: "smoke"
+      hex: "#F5F5F5"
+      rgb: "245, 245, 245"
+      cmyk: "0.00, 0.00, 0.00, 0.04"
+      use: "marketing and signage"

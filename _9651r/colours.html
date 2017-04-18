@@ -13,244 +13,46 @@ permalink: /9651r/colours/
     There are three categories of colours: Primary Colours, Accent Colours, and Background Colours. Primary Colours make up the most prominent parts of our design style: basically, the logo, and accompanying text. Accent colours are often used to convey context, such as red for warning. Background Colours are our recommended background colours that complement our primary and accent colours.
   </p>
 </div>
-
-<div class="section">
-  <h2 class="section-header" id="primary-colours">Primary Colours</h2>
-  <div class="card card-block card-outline-danger mb-5">
-    <span class="text-danger"><span class="fa fa-exclamation"></span> Notice:</span> The CMYK and RGB colour codes aren't correct yet. For now, use the hex code.
+{% for category in site.data.9651r.colors %}
+  <div class="section">
+    <h2 class="section-header" id="{{category[0]}}-colours">{{ category[0] | capitalize }} Colours</h2>
+    {% for color in category[1] %}
+      <div class="row">
+        <div class="col-md-4">
+          <div class="color-showcase bg-{{color[1].class}}"></div>
+        </div>
+        <div class="col-md-4">
+          <span class="font-showcase {{site.data.wac.fonts.default.class}} color-{{color[1].class}}">Aa</span>
+        </div>
+        <div class="col-md-4">
+          <h3>{{color[1].name}}</h3>
+          <ul class="list-unstyled">
+            {% if color[1].hex %}
+              <li>
+                Hex: <span class="badge bg-{{color[1].class}}">{{color[1].hex}}</span>
+              </li>
+            {% endif %}
+            {% if color[1].rgb %}
+              <li>
+                RGB: <span class="badge bg-{{color[1].class}}">{{color[1].rgb}}</span>
+              </li>
+            {% endif %}
+            {% if color[1].cmyk %}
+              <li>
+                CMYK: <span class="badge bg-{{color[1].class}}">{{color[1].cmyk}}</span>
+              </li>
+            {% endif %}
+            {% if color[1].use %}
+              <li>
+                Used for: <b>{{color[1].use}}</b>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
   </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-light-sea"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-light-sea">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Light Sea Green</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-light-sea">#18BC9C</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-light-sea">92, 123, 163</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-light-sea">0.44, 0.25, 0.00, 0.36</span>
-        </li>
-        <li>
-          Primarily used for: <b>logo, marketing, and branding</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-madison"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-madison">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Madison Gray</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-madison">#2C3E50</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-madison">56, 57, 56</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-madison">0.02, 0.00, 0.02, 0.78</span>
-        </li>
-        <li>
-          Primarily used for: <b>text, background</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="section">
-  <h2 class="section-header" id="accent-colors">Accent Colors</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-cool-blue"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-cool-blue">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Cool Blue</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-cool-blue">#0089FB</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-cool-blue">217, 83, 79</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-cool-blue">0.00, 0.62, 0.64, 0.15</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing and signage</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-deep-sea"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-deep-sea">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Deep Sea Green</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-deep-sea">#0F7864</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-deep-sea">129, 138, 145</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-deep-sea">0.11, 0.05, 0.00, 0.43</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-pewter"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-pewter">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Pewter Gray</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-pewter">#95A5A6</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-pewter">122, 208, 237</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-pewter">0.49, 0.12, 0.00, 0.07</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-strong-red"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-strong-red">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Strong Red</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-strong-red">#FF0000</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-strong-red">255, 0, 0</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-strong-red">0.44, 0.25, 0.00, 0.36</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-tree-poppy"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-tree-poppy">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Tree Poppy Yellow</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-tree-poppy">#F39C12</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-tree-poppy">217, 83, 79</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-tree-poppy">0.00, 0.62, 0.64, 0.15</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="section">
-  <h2 class="section-header" id="background-colours">Background Colours</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-madison"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-madison">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Madison Gray</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-madison">#2C3E50</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-madison">42, 38, 42</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-madison">0.00, 0.10, 0.00, 0.84</span>
-        </li>
-        <li>
-          Primarily used for: <b>text and background</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="color-showcase bg-athens"></div>
-    </div>
-    <div class="col-md-4">
-      <span class="font-showcase roboto color-athens">Aa</span>
-    </div>
-    <div class="col-md-4">
-      <h3>Athens Gray</h3>
-      <ul class="list-unstyled">
-        <li>
-          Hex: <span class="badge bg-athens">#ECF0F1</span>
-        </li>
-        <li>
-          RGB: <span class="badge bg-athens">245, 245, 245</span>
-        </li>
-        <li>
-          CMYK: <span class="badge bg-athens">0.00, 0.00, 0.00, 0.04</span>
-        </li>
-        <li>
-          Primarily used for: <b>marketing and signage</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+{% endfor %}
 <div class="section">
   <h2 class="section-header" id="css-example">CSS Example</h2>
   <p>

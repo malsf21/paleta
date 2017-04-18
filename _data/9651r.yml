@@ -1,0 +1,55 @@
+fonts:
+  default:
+    name: "Roboto"
+    class: "roboto"
+colors:
+  primary:
+    light-sea-green:
+      name: "Light Sea Green"
+      class: "light-sea"
+      hex: "#18BC9C"
+      use: "logo, marketing, and branding"
+    madison-gray:
+      name: "Madison Gray"
+      class: "madison"
+      hex: "#2C3E50"
+      use: "text, background"
+
+  accent:
+    cool-blue:
+      name: "Cool Blue"
+      class: "cool-blue"
+      hex: "#0089FB"
+      use: "marketing and signage"
+    deep-sea-green:
+      name: "Deep Sea Green"
+      class: "deep-sea"
+      hex: "#0F7864"
+      use: "marketing"
+    pewter-gray:
+      name: "Pewter Gray"
+      class: "pewter"
+      hex: "#95A5A6"
+      use: "marketing"
+    strong-red:
+      name: "Strong Red"
+      class: "strong-red"
+      hex: "#FF0000"
+      use: "marketing"
+    tree-poppy-yellow:
+      name: "Tree Poppy Yellow"
+      class: "tree-poppy"
+      hex: "#F39C12"
+      use: "marketing"
+
+  background:
+    madison-gray:
+      name: "Madison Gray"
+      class: "madison"
+      hex: "#2C3E50"
+      use: "text, background"
+    athens-gray :
+      name: "Athens Gray"
+      class: "athens"
+      hex: "#ECF0F1"
+      use: "marketing and signage"
