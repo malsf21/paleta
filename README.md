@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/malsf21/paleta.svg?branch=master)](https://travis-ci.org/malsf21/paleta)
 
+**ATTENTION**: I will rewrite Paleta as a CLI/templating engine, and distribute its content to each individual organisation's GH Org and subdomain (e.g. design.world.ac). Until then, this project is just in limbo. 
+
 Paleta is an online style guide for a few organisations that I have some sort of design role in. It provides information such as colour palettes, typography, or branding. Plus, it's modular, which means that you can use Paleta to make your own style guides. Awesome!
 
 ## Organizations
