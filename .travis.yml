@@ -3,7 +3,7 @@ os:
   - osx
 language: ruby
 rvm:
-- 2.1
+- 2.4
 
 install:
   - gem install jekyll
