@@ -1,0 +1,26 @@
+{
+	"info":{
+		"name": "World Affairs Conference",
+		"shortName": "WAC"
+	},
+	"colors":{
+		"categories":[
+			{
+				"id": "primary",
+				"name": "Primary Colors"
+			}
+		],
+		"data":{
+			"primary": [
+				{
+					"name": "Horizon Blue",
+		      "class": "horizon",
+		      "hex": "#5C7BA3",
+		      "rgb": "92, 123, 163",
+		      "cmyk": "0.44, 0.25, 0.00, 0.36",
+		      "use": "logo, marketing, and branding"
+				}
+			]
+		}
+	}
+}
